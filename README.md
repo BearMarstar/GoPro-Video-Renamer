@@ -15,3 +15,7 @@
 1. Склонируйте репозиторий:
 ```powershell
 git clone https://github.com/BearMarstar/GoPro-Video-Renamer.git
+
+cd GoPro-Video-Renamer
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
+.\Rename-GoProVideos.ps1
